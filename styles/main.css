@@ -1,0 +1,75 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 960px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: auto;
+}
+
+main {
+    align-items: center;
+    font-size: 16.5px;
+}
+
+header, footer {
+    background-color: rgb(87, 87, 131);
+    color: white;
+    text-align: center;
+}
+
+img {
+    margin: 10px;
+    max-width: 80%;
+    padding: 0.5em;
+    margin-left: 30px;
+    border-radius: 30px 30px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    border-radius: 10px 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+    border-radius: 10px 10px;
+    text-shadow: 10px 10px 10px gray;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.parrafo {
+    grid-column: 1/4;
+    text-align: center;
+    margin: auto;
+}
+
+.parrafodos {
+    grid-column: 1/4;
+    text-align: center;
+    margin: auto;
+    color: rgb(206, 206, 34);
+}
+
+h2 {
+    text-shadow: 10px 10px 10px gray;
+    font-size: 2.5em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+
+
+
+
+
+
+
+
+
