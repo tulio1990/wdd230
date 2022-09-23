@@ -1,0 +1,16 @@
+@media only screen and (min-width: 32.5em) {
+
+    header, footer {
+        background-color: rgb(32, 32, 56);
+        color: rgb(255, 255, 255);
+    }
+
+    h2 {
+        text-shadow: 50px 50px 150x rgb(90, 44, 44);
+        font-size: 1.3em;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+}
