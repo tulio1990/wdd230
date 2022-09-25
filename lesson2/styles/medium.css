@@ -1,0 +1,11 @@
+@media (min-width: 680px) and (max-width: 930px) {
+
+    main{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    section:nth-child(3) {
+        grid-column: span 2;
+    }
+    
+}
