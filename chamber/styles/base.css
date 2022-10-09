@@ -39,8 +39,7 @@ header {
     flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	max-width: 100%;
-	
+	max-width: 100%;	
 	border-bottom: 1px solid #bbb;
 }
 

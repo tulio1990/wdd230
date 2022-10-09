@@ -1,12 +1,4 @@
 @media (min-width: 482px) and (max-width: 930px) {
-  header{
-    flex-direction: column;
-    align-items:flex-start;
-  }
-
-  .head{
-    width: 100%;
-  }
 
   footer{
     width: 100%;
@@ -89,12 +81,6 @@
     margin-top: 30px;
   }
 
-  .menu{
-    margin-left: 130px;
-    margin-top: 30px;
-  }
-
-  
 
   .logo-footer {
     display: flex;
