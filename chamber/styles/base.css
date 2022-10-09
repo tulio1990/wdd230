@@ -4,7 +4,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
     max-width: 960px;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: auto;
 }
 
@@ -34,7 +34,6 @@ h3{
 
 header {
     background-color: #293022;
-
 	display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -91,6 +90,7 @@ header {
 
 
 footer {
+    font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
