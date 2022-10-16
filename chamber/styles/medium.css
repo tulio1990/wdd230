@@ -116,7 +116,20 @@
     display: block;
     margin-left: 5px;
     margin-right: 5px;
-    }  
+    }
+  
+    .site-name-1{
+      font-size: 1.8rem;
+  }
+
+  .site-name-2{
+      font-size: 1.4rem;
+      width: 250px;
+  }
+
+  .Release p{
+    display: inline-block;
+}
 
 
 }

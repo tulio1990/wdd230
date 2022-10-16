@@ -80,6 +80,7 @@
         display: block;
         margin-left: 5px;
         margin-right: 5px;
+
     }
 
     .footer-two{
@@ -107,15 +108,25 @@
         margin-right: 10px;
     }
 
+    .site-name-1{
+      top: 40px;
+      left: 20px;
+      font-size: 2rem;
+  }
+
+  .site-name-2{
+      bottom: 20px;
+      right: 20px;
+      font-size: 1.5rem;
+  }
+
     .Release {
         order: 3;
         align-self: flex-end;
         position: absolute;
         margin-left: 265px;
         width: 385px;
-        margin-right: 12px;
-
-        
+        margin-right: 12px;      
     }
 
 
