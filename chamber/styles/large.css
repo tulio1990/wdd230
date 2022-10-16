@@ -129,7 +129,14 @@
         margin-right: 12px;      
     }
 
+    .join a{
+      width: 80%;
+      margin: 0;
+    }
 
+    .join p{
+      bottom: 13px;
+    }
 
     .join{
         display: block;
@@ -141,7 +148,8 @@
       }
     
     .weather{
-        width: 250px;
+        width: 100%;
+        margin-left: 0%;
       }
     
     .spotlight  {
@@ -164,6 +172,10 @@
         margin-right: 8px;
         height:30%;
       }
+
+
+
+
 
 
   

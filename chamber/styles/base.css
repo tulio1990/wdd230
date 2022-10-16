@@ -209,7 +209,7 @@ nav ul.open {display: block;}
 }
 
 section  {
-  background-color: #EEEDED;
+  background-color: #FFFCFF;
   border: #293022 3px solid;
   margin-top: 5px;
   width: 378px;
@@ -218,7 +218,7 @@ section  {
 }
 
 .spotlight  {
-    background-color: #bbb;
+    background-color: #FFFCFF;
     border: #293022 3px solid;
     margin-top: 5px;
     height: 450px;
@@ -304,6 +304,24 @@ section  {
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
 }
+
+.weather{
+    justify-content: space-between;
+    text-align: center;
+    width: 70%;  
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.event ,.weather ,.Release h2 , .spotlight-one, .spotlight-two, .spotlight-three{
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px #188C69;
+}
+
+
+
+
+
 
 
 
