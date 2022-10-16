@@ -120,28 +120,57 @@
       font-size: 1.5rem;
   }
 
-    .Release {
+  .Release {
         order: 3;
         align-self: flex-end;
         position: absolute;
         margin-left: 265px;
         width: 385px;
         margin-right: 12px;      
+  }
+
+    .join{
+      display: block;
+      width: 250px;
+
+      background-color: #eee;
+    margin: 5px;
+    align-content: center;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px 2px #06ac06b0;
+    text-align: center;
+    position: relative;
     }
 
     .join a{
-      width: 80%;
       margin: 0;
+      text-decoration: none;
+      position: absolute;
+      width: 70%;
+      height: auto;
+      padding: 1rem;
+      background-color: #007e8f;
+      font-weight: bold;
+      border-radius: 10px;
+      color: #293022;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+      top: 10px;
+      left: 15px; 
+      right: 10px;
+      z-index: 1;
+      font-size: 1.2rem;
     }
 
     .join p{
-      bottom: 13px;
+      position: absolute;
+      text-align:center;
+      top: 58px; 
+      right: 20px;
+      left: 10px;
     }
 
-    .join{
-        display: block;
-        width: 250px;
-      }
+
     
     .event{
         width: 250px;
