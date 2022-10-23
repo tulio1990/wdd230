@@ -23,7 +23,7 @@
 
             <div class="logo">
                 <picture>
-                    <img src="images/logo2.png" alt="logo">
+                    <img src="images/logo2.webp" alt="logo">
                 </picture>
                 <div class="headings">
                     <h1>Catracho</h1>
@@ -76,7 +76,11 @@
             <section class="site-name">
                 <h1 class="site-name-1">Welcome to Catracho</h1>
                 <picture>
-                    <img src="images/catracho.jpg" alt="Chamber Commerce">
+                    <!-- <img src="images/catracho.jpg" alt="Chamber Commerce"> -->
+                    <source media="(max-width: 481px)" srcset="images/wdd230-org-small.avif">
+                    <source media="(max-width: 929px)" srcset="images/wdd230-org-medium.avif">
+                    <source media="(min-width: 930px)" srcset="images/wdd230-org-large.avif">
+                    <img src="images/wdd230-org.avif" alt="Activity - Responsive Image ">
                 </picture>
                 <a class="site-name-2" href="#">Join the Chamber</a>
             </section>
@@ -87,11 +91,11 @@
                 </section>
                 <section class="weather">
                         <h2>Weather</h2>
-                        <span >☁️ 28°C</span><br />
+                        ☁️<span id="temperature">8</span>°C<br/>
                         <h3>Partly Cloudy</h3>
                         <hr>
-                        <span>Wind Speed: 8.5 Km/h</span><br>
-                        <span>Wind Chill:  N/A</span>
+                        Wind Speed: <span id="windSpeed">8</span> Km/h<br>
+                        Wind Chill: <span id="windChill"></span>
                 </section>
                 <section class="join">
                     <p>Discover how to be part of the Catracho Chamer of Commerce and see how we can help your business grow.</p>
@@ -154,5 +158,6 @@
 
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
