@@ -319,6 +319,55 @@ section  {
 }
 
 
+.discover{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em;
+}
+
+.discover-data{
+    text-align: center;
+    width: 100%;
+}
+
+.label, .lastVisitUser, .visit, .lastVisit{
+    font-weight: bold;
+    color: #FFFCFF;
+}
+
+.ceiba, .sps, .tegus, .tela, .roatan{
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
+    background-color:#eee;
+}
+
+.ceiba-img, .tegus-img, .roatan-img, .sps-img, .tela-img{
+    width: 50%;
+    margin: 10px;
+}
+
+.sps-img, .tela-img {
+    float: right;
+}
+.ceiba-img, .tegus-img, .roatan-img{
+    float: left;
+}
+
+.ceiba-article, .tegus-article, .roatan-article, .sps-article, .tela-article{
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

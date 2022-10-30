@@ -202,12 +202,16 @@
         height:30%;
       }
 
+      /* +++++++++++++++++++++++++++++++++++++++++*/
 
-
-
-
-
-  
-        
+    picture img[data-src] {
+      filter: blur(0.1em);
+    }
+    
+    picture img {
+      filter: blur(0em);
+      transition: filter 2s;
+    }
+       
 
 }
