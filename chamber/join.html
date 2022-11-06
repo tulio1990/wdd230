@@ -73,63 +73,42 @@
         
     </header>
     <main>
-        <div class="content">
-            <section class="site-name">
-                <h1 class="site-name-1">Welcome to Catracho</h1>
-                <picture>
-                    <!-- <source media="(max-width: 481px)" srcset="images/wdd230-org-small.avif">
-                    <source media="(max-width: 929px)" srcset="images/wdd230-org-medium.avif">
-                    <source media="(min-width: 930px)" srcset="images/wdd230-org-large.avif">
-                    <img src="images/wdd230-org.avif" alt="Activity - Responsive Image "> -->
+        <div class="principal">
 
-                    <source media="(max-width: 481px)" srcset="images/catracho-small.avif">
-                    <source media="(max-width: 929px)" srcset="images/catracho-medium.avif">
-                    <source media="(min-width: 930px)" srcset="images/catracho.avif">
-                    <img src="images/catracho.jpg" alt="Chamber Commerce">
-                </picture>
-                <a class="site-name-2" href="join.html">Join the Chamber</a>
-            </section>
-            <div class="site-column">
-                <section class="event">
-                    <h2>Capacitaciones and Company</h2>
-                    <p>The event, the largest and most traditional in the commerce and services sector in my country <br><strong>more infor...</strong></p>
-                </section>
-                <section class="weather">
-                        <h2>Weather</h2>
-                        ☁️<span id="temperature">8</span>°C<br/>
-                        <h3>Partly Cloudy</h3>
-                        <hr>
-                        Wind Speed: <span id="windSpeed">8</span> Km/h<br>
-                        Wind Chill: <span id="windChill"></span>
-                </section>
-                <section class="join">
-                    <p>Discover how to be part of the Catracho Chamer of Commerce and see how we can help your business grow.</p>
-                    <a href="join.html">Join Us</a>
-                </section>
-            </div>  
-            <section class="Release">
-                <h2>News Release</h2>
-                <p>Find a quick, economical and effective solution to your commercial disputes of any kind, with specialized professionals and absolute confidentiality.</p>
-            </section>
-            <div class="spotlight">
-                <section class="spotlight-one">
-                    <h2>✓ Registration and membership</h2>
-                    <p>Submit original deed, fill out income form and pay according to maximum authorized capital.</p>
-                    <hr>
-                    <p ><b>BANCO ATLÁNTIDA:</b>1202242606</p>
-                </section>
-                <section class="spotlight-two">
-                    <h2>☞ Conciliation and Arbitration Center</h2>
-                    <p>Find a quick, economical and effective solution to your commercial disputes of any kind</p>
-                </section>
-                <section class="spotlight-three">
-                    <h2>⛑ Job intermediation</h2>
-                    <p>We have an extensive database of candidates from different academic levels that we make available free of charge to affiliated companies.</p><hr>
-                </section>
-            </div>
+     
+        <div class="title-join">
+            <h1>Join with US</h1>
         </div>
         
+        <div class="form">
+        <form  method="get" action="thankyou.html">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label class="top">First name *<input type="text" name="fname" required></label>
+            <label class="top">Last name *<input type="text" name="lname" required></label>
+            <label class="top">Email *<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Phone *<input type="tel" name="phone" placeholder="1235551234"></label>
+        </fieldset>
 
+        <fieldset>
+            <legend>Business Information</legend>
+            <label class="top">Business position<input type="text" name="bposition" pattern="[a-zA-Z-\s]+$" minlength="7"></label>
+            <label class="top">Business Name *<input type="text" name="bname" required></label>
+            <label class="top">Business Description<textarea name="bdescription" cols="25" rows="10"></textarea></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Membership Level</legend>
+            <label class="sbs"><input type="radio" name="mlevel" value="npm">NP free</label>
+            <label class="sbs"><input type="radio" name="mlevel" value="bro">Bronze 50$ (20% events, 10% advertising)</label>
+            <label class="sbs"><input type="radio" name="mlevel" value="sil">Silver 100$ (40% advertising, 30% events)</label>
+            <label class="sbs"><input type="radio" name="mlevel" value="gol">Gold 200$ (50% advertising, Free events)</label>
+        </fieldset>
+        <input type="hidden" name="dateandtime" id="value-date">
+        <input type="submit" value="Send My Information" class="submitBtn">
+   </form>
+</div>
+</div>
     </main>
     <footer>
         <div class="logo-footer">

@@ -122,3 +122,8 @@ console.log(lastVisit)
   visitsDisplay.textContent = `Today is your first day here`;
   localStorage.setItem("last-visit", Date.now());
 }
+
+
+let date = new Date();
+const hidden = document.querySelector("#value-date");
+hidden.setAttribute("value",date);

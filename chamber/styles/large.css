@@ -88,7 +88,6 @@
     }
 
     
-    
     .content{
         flex-direction: row;
         width: 100%;
@@ -212,6 +211,10 @@
       filter: blur(0em);
       transition: filter 2s;
     }
+
+    form label.sbs{
+      padding: .4rem 0;
+  }
        
 
 }
