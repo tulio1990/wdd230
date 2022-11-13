@@ -1,4 +1,4 @@
-const request = 'json/directory.json';
+const request = 'scripts/directory.json';
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const directory = document.querySelector('.directory');
