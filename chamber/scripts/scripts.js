@@ -127,3 +127,11 @@ console.log(lastVisit)
 let date = new Date();
 const hidden = document.querySelector("#value-date");
 hidden.setAttribute("value",date);
+
+
+
+
+
+
+
+

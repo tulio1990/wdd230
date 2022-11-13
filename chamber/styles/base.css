@@ -438,6 +438,24 @@ section  {
     margin: 5px;
 }
 
+/* 
+directory */
+
+.directory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  
+  section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: rgb(255, 255, 255);
+    border: 8px solid rgb(194, 165, 165);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 
 
 
