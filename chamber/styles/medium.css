@@ -169,3 +169,20 @@
 
 
 }
+
+
+.directory{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  overflow: hidden;
+}
+
+.directory section {
+  text-align: justify;
+  align-items:flex-start;
+
+}
+
+
+
+
