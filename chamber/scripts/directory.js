@@ -29,7 +29,6 @@ fetch(request)
     let profesionl = document.createElement('p');
     let portrait = document.createElement('img');
   
-    
     h2.textContent = `${directoryJs.name}`;
     phone.textContent = `${directoryJs.phone}`;
     address.textContent = `${directoryJs.address}`
