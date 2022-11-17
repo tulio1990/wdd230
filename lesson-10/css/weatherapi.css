@@ -1,0 +1,33 @@
+
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(204, 248, 238);
+    font-family: 'Open Sans', sans-serif; 
+}
+
+div{
+    border: 5px solid rgba(97, 83, 175, 0.829);
+    border-radius: 15px 15px;
+    background-color: rgba(242, 244, 246, 0.774);
+    box-shadow: 2px 2px 10px;
+}
+
+h1{
+    text-shadow: 5px 5px 20px rgb(72, 169, 198);
+    font-size: 32px;
+    font-style:oblique;
+}
+
+h2{
+    
+    font-weight:bolder;
+    font-size: 27px;
+}
+
+p, figcaption{
+    font-size: 20px;
+}
+
+
+
