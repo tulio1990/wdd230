@@ -92,7 +92,7 @@ const todayTime = today.getTime()
 
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
-if (numVisits !== 0) {
+if (numVisits !== 0 && numVisits !== null) {
 visitsDisplay.textContent = numVisits;
 
 } else {
@@ -127,6 +127,10 @@ console.log(lastVisit)
 let date = new Date();
 const hidden = document.querySelector("#value-date");
 hidden.setAttribute("value",date);
+
+//***************************************
+
+
 
 
 
