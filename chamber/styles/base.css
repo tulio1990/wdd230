@@ -1,4 +1,4 @@
-
+@media (max-width: 680px) {
 
 body {
     font-size: 18px;
@@ -499,6 +499,36 @@ directory */
     border: solid rgba(0, 0, 0, 0.3);
     border-radius: 5px;
   }
+
+
+  /* 
+contact */
+
+.contact-principal{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: 100%;
+}
+
+.title-contact{
+    grid-column: 1/13;
+    grid-row: 1/2;
+}
+
+.form-contact{
+    grid-column: 1/13;
+    grid-row: 2/3;
+    
+}
+
+.fildset-contact{
+    grid-column: 1/13;
+    grid-row: 3/5;
+}
+
+}
+
+
 
 
 

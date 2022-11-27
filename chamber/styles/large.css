@@ -233,3 +233,25 @@
 
 }
 
+.contact-principal{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  width: 100%;
+}
+
+.title-contact{
+  grid-column: 1/13;
+  grid-row: 1/2;
+}
+
+.form-contact{
+  grid-column: 2/7;
+  grid-row: 2/5;
+  
+}
+
+.fildset-contact{
+  grid-column: 8/12;
+  grid-row: 2/4;
+}
+

@@ -58,7 +58,7 @@
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li class="active"><a href="#">Directory</a></li>
+                <li class="active"><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>    
             </ul>
@@ -73,9 +73,30 @@
         
     </header>
     <main>
-        <div class="thankyou">
-            <h1>Catracho Chamber Application</h1>
-            <p>Thank you for completing the information, we will be contacting you soon so that you can receive the benefits of the service obtained.</p>
+        <div class="contact-principal">
+
+     
+            <div class="title-contact">
+                <h1>Contact Us</h1>
+            </div>
+        
+            <div class="form-contact">
+            <form  method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label class="top">First name *<input type="text" name="fname" required></label>
+                <label class="top">Last name *<input type="text" name="lname" required></label>
+                <label class="top">Email *<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone *<input type="tel" name="phone" placeholder="1235551234"></label>
+            </fieldset>
+            <input type="hidden" name="dateandtime" id="value-date">
+            <input type="submit" value="Submit" class="submitBtn">
+            </form>
+            </div>
+            <fieldset class="fildset-contact">
+                <legend>Contact us</legend>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123836.48327039782!2d-87.26860139753657!3d14.083664199999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fa2d4b54a217b%3A0xe36cc8be7ecea4bd!2sC%C3%A1mara%20de%20Comercio%20e%20Industrias%20de%20Tegucigalpa!5e0!3m2!1ses!2shn!4v1669527920346!5m2!1ses!2shn" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </fieldset>
         </div>
     </main>
     <footer>
