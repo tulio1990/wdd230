@@ -504,6 +504,7 @@ directory */
   /* 
 contact */
 @media (max-width: 680px) {
+    
 .contact-principal{
     display: grid;
     grid-template-columns: repeat(12,1fr);
