@@ -504,27 +504,42 @@ directory */
   /* 
 contact */
 @media (max-width: 680px) {
-    
+
+
 .contact-principal{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    width: 100%;
+    width: 95%;
+
 }
 
 .title-contact{
-    grid-column: 1/13;
+    grid-column: 2/12;
     grid-row: 1/2;
+    width: 95%;
 }
 
 .form-contact{
-    grid-column: 1/13;
+    grid-column: 2/12;
     grid-row: 2/3;
+    width: 95%;
     
 }
 
+
 .fildset-contact{
-    grid-column: 1/13;
+    grid-column: 2/12;
     grid-row: 3/5;
+    max-width: 95%;
+    color: white;
+}
+
+.fildset-contact legend{
+    color: white
+}
+
+.contact-map{
+    width: 95%;
 }
 
 }

@@ -163,25 +163,55 @@
       width: 250px;
   }
 
+  .directory{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    overflow: hidden;
+  }
+  
+  .directory section {
+    text-align: justify;
+    align-items:flex-start;
+  
+  }
+
   .Release p{
     display: inline-block;
 }
 
-
-}
-
-
-.directory{
+.contact-principal{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  overflow: hidden;
+  grid-template-columns: repeat(12,1fr);
+  width: 100%;
 }
 
-.directory section {
-  text-align: justify;
-  align-items:flex-start;
+.title-contact{
+  grid-column: 1/13;
+  grid-row: 1/2;
+}
+
+.form-contact{
+  grid-column: 2/7;
+  grid-row: 2/5;
+  
+}
+
+.fildset-contact{
+  grid-column: 8/12;
+  grid-row: 2/4;
+  color: white;
+  margin: 2rem 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+
 
 }
+
+
+
 
 
 
