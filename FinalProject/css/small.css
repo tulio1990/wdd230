@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+nav{
+    grid-column: 3/4;
+    align-content: center;
+    color: white;
+    height: 80px;
+    width: 100%;
+    margin-top: 10%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #c0741d;
+    transition: .5s;
+}
+
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color:rgb(224, 224, 224);
+    margin-top: 25px;
+    width: 100%;
+    margin-right: 5px;
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+.logo{
+    grid-column: 1/2;
+}
+
+.img-logo, .img-logo-footer{
+    width: 200px;
+    height: 200px;
+}
+
+.social-media{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 50%;
+
+}
+
+
+/***********************************************************************************************/
+
+body{
+    background-color: #aae1aa;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.banner{
+    display: none;
+}
+
+.img-laguna{
+    width: 40%;
+    height: 40%;
+}
