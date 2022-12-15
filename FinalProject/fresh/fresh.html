@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Final Proyect">
+    <meta name="author" content="Tulio Banegas">
+    <title>About US</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <!-- STYLE SHEETS -->
+    <link href="../CSS/normalize.css" rel="stylesheet">
+    <link href="../CSS/small.css" rel="stylesheet">
+    <link href="../CSS/medium.css" rel="stylesheet">
+    <link href="../CSS/large.css" rel="stylesheet">
+    <link href="css/fresh.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- HEADER HERE -->
+    <header>
+        <div id="headerBox">
+            <img id="logo" src="../images/Logo.png" style="width: 300px; height: 150px;" alt="Image logo" />
+        </div>
+        <div id="siteName">
+            <h1 id="title-site">BEAUTIFUL FOODS</h1>
+            <br>
+            <h3 id="motto">Distributor.</h3>
+        </div>
+        <!-- NAVIGATION HERE -->
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">  Menu</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li class="active"><a href="fresh.html">Fresh</a></li>
+                <li><a href="../aboutus/aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="father-box-home">
+        <!-- CONTENT HERE -->
+        <main class="container-home-contra">
+            <form method="get" action="thanks.html" class="form-contra">
+                <fieldset>
+                    <h3>Personal Information</h3>
+                    <label class="info">
+                        Full name:
+                            <input  type="name" name="name" placeholder="Tuio Ricardo Banegas" pattern="([a-zA-Z-]{1,})([' ']?)([a-zA-Z-]{4,})([' ']?)([a-zA-Z-]{0,})" required>
+                    </label>
+                    <label class="info">
+                        eMail:
+                        <input type="email" name="email" placeholder="user@email.org" required></label>
+                    <label class="info"> 
+                        Phone:
+                            <input type="tel" name="phone" placeholder="###-###-####" required></label>
+                </fieldset>
+                <label class="info">
+                    Genus Type:
+                    <select  name="Storm-region" id="genus" onchange="selectResponse()" required>
+                        
+                    </select>
+                </label>
+
+                <fieldset>
+                    <br>
+                    <label class="info" for="msg">Additional information:
+                    <textarea id="msg" name="user_message"  style="width: 80%; height: 200px;"></textarea></label>
+                    <br>
+                    <br>
+                </fieldset>
+                <div id="line-top"></div>
+                <div id="first"></div><input type="submit" value="Submit Information" class="submitBtn">
+                <div id="second"></div>
+                <div id="line-bottom"></div>
+            </form>
+            <div class="principal5">
+                <div class="cuzmel-contact-us">
+                    <div class="cuzmel-contact-us">
+                        <h3>Bountiful foods Distributor</h3>
+                        <p>📍 California</p>
+                        <p>📧 nfo@foods.com</p>
+                        <p>☎️ +(504)2222-0000</p>
+                        <br>
+                        <br>
+
+                    </div>
+                    <div class="social-media">
+                        <p></p>
+                    </div>
+                    <img id="image2" src="../images/us-traveler-Colorful-sunrise-on-Coronado-Island.jpg" alt="Island" />
+                </div>
+
+            </div>
+
+
+
+
+
+        </main>
+
+
+        <!-- FOOTER HERE -->
+        <footer>
+            <div>
+                <p>
+
+                    &copy; 2022 .:|:. Tulio Ricardo Banegas .:|:. Honduras <a href="https://www.byui.edu/online" target="_blank">BYU Online Learning</a>
+
+                </p>
+                <p class="parrafodos">Last Updated: <span id="last-updated"></span></p>
+
+            </div>
+
+            <div>
+                <h4>Site Plan</h4>
+                <a href="" target="_blank"><img src="../images/Logo.png" style="width: 60px; height: 60px;" alt="Image logo" /></a>
+
+            </div>
+        </footer>
+
+        <script src="../JS/events.js"></script>
+        <script src="../../scripts/lastupdated.js"></script>
+        <script src="js/fresh.js"></script>
+    </div>
+</body>
+
+</html>

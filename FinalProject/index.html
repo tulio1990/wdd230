@@ -1,77 +1,92 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <title>WDD 230 - Tulio Banegas</title>
-    <meta name="description" content="Final Project: Bountiful Foods">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Final Proyect">
+    <meta name="author" content="Tulio Banegas">
+    <title>BEUTIFUL FOODS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <!-- STYLE SHEETS -->
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <link href="CSS/small.css" rel="stylesheet">
+    <link href="CSS/medium.css" rel="stylesheet">
+    <link href="CSS/large.css" rel="stylesheet">
+
 </head>
+
 <body>
+
+    <!-- HEADER HERE -->
     <header>
-        <div class="logo">
-            <img class="img-logo" src="images/logo.png" alt="logo">
+        <div id="headerBox">
+            <img id="logo" src="images/Logo.png" style="width: 300px; height: 150px;" alt="Image logo" />
         </div>
+        <div id="siteName">
+            <h1 id="title-site">BEAUTIFUL FOODS</h1>
+            <br>
+            <h3 id="motto">Distributor.</h3>
+        </div>
+        <!-- NAVIGATION HERE -->
         <nav>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-            <ul id="primaryNav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="fresh.html">Fresh</a></li>
-                <li><a href="aboutus.html">About Us</a></li>    
+            <ul class="navigation">
+                <li><a class="ham" href="#">  Menu</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="fresh/fresh.html">Fresh</a></li>
+                <li><a href="aboutus/aboutus.html">About Us</a></li>
             </ul>
-        </nav> 
-        <div class="social-media">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
-        </div>
+        </nav>
     </header>
-    <main>
-        <div class="banner">
-            <img src="" alt="">
-        </div>
 
-        <div class="laguna-beach">
-            <p></p>
-            <img class="img-laguna" src="images/laguna-beach.JPG" alt="laguna-beach">
-        </div>
+    <div id="father-box-home">
+        <!-- CONTENT HERE -->
+        <main class="container-home">
+            <div class="principal">
 
-        <div class="weather">
-            <h2>weather</h2>
-            <p></p>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-        <div class="fresh-link">
-            <img src="" alt="">
-            <button></button>
-        </div>
-    </main>
-    <footer>
-        <div class="footer-info">
-            <div class="footer-address">
-                <div class="logo2">
-                    <img class="img-logo-footer" src="images/logo.png" alt="logo">
+                <div id="principal-div">
+                    <div class="laguna-beach">
+                        <p></p>
+                        <img class="img-laguna" src="images/us-traveler-Colorful-sunrise-on-Coronado-Island.jpg" alt="Costa del sur">
+                    </div>
                 </div>
-                <div class="info">
-                    <p class="str">Catracho Chamber of Commerce</p>
-                    <p class="str">10 Rue de la Paix</p>
-                    <p class="str">Tegucigalpa, Malí 999</p>
-                    <p>info@cchamber.com</p>
-                    <p>+(504)2222-0000</p>
-                </div>              
-            </div>    
-        </div>     
-        <p class="parrafo">&copy; 2022 .:|:. Tulio Ricardo Banegas .:|:. Honduras</p>
-        <p class="parrafodos">Last Updated: <span id="last-updated"></span></p>
-    </footer>
-    <script src="js/events.js"></script>
+            </div>
+            <br>
+            <hr>
+            <div class="principal3">
+                <img id="image3" src="images/laguna-beach.JPG" alt="laguna-beach" />
+                <h2 class="fiveday">Beautifull Foods five-day forecast</h2>
+                <div class="flex"></div>
+            </div>
+            <hr>
+
+            <div class="article"></div>
+            <div class="contactInformation"></div>
+        </main>
+
+        <!-- FOOTER HERE -->
+        <footer>
+            <div>
+                <p>
+
+                    &copy; 2022 .:|:. Tulio Ricardo Banegas .:|:. Honduras <a href="https://www.byui.edu/online" target="_blank">BYU Online Learning</a>
+
+                </p>
+                <p class="parrafodos">Last Updated: <span id="last-updated"></span></p>
+
+            </div>
+
+            <div>
+                <h4>Site Plan</h4>
+                <a href="PAGES/SITE_PLAN/site-plan.html" target="_blank"><img src="images/Logo.png" style="width: 60px; height: 60px;" alt="Image logo" /></a>
+
+            </div>
+        </footer>
+
+        <script src="JS/events.js"></script>
+        <script src="../scripts/lastupdated.js"></script>
+    </div>
 </body>
+
 </html>

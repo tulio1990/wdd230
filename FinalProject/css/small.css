@@ -1,101 +1,151 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    list-style: none;
+}
+
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-header{
-    background-color: #000000;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-}
 
-nav{
-    grid-column: 3/4;
-    align-content: center;
-    color: white;
-    height: 80px;
+/* Small/Phone View ***************/
+
+nav {
+    grid-column: 1/3;
+    color: #f0f0f0;
+    border: 0.5px solid #a05111;
+    margin: 0 auto;
     width: 100%;
-    margin-top: 10%;
+    background-color: #e0741d;
 }
 
-nav ul{
-    float: right;
-    margin-right: 20px;
-}
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-nav ul li a{
-    color: #fff;
-    font-size: 18px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-li a.active, li a:hover{
-    background: #c0741d;
-    transition: .5s;
+nav a:visited {
+    color: #f0f0f0;
 }
 
-nav button{
-    margin: .2rem 2vw;
-    background: transparent;
-    border: none;
-    font-size: 2rem;
-    color:rgb(224, 224, 224);
-    margin-top: 25px;
-    width: 100%;
-    margin-right: 5px;
+.navigation {
+    list-style: none;
+    padding: 0;
 }
 
-nav ul {display: none;}
-nav ul.open {display: block;}
-
-#hamburgerBtn span:nth-child(1) {display: block;}
-#hamburgerBtn span:nth-child(2) {display: none;}
-
-#hamburgerBtn.open span:nth-child(1) {display: none;}
-#hamburgerBtn.open span:nth-child(2) {display: block;}
-
-.logo{
-    grid-column: 1/2;
+.navigation li:first-child {
+    display: block;
 }
 
-.img-logo, .img-logo-footer{
-    width: 200px;
-    height: 200px;
-}
-
-.social-media{
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 50%;
-
-}
-
-
-/***********************************************************************************************/
-
-body{
-    background-color: #aae1aa;
-}
-
-main{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-.banner{
+.navigation li {
     display: none;
 }
 
-.img-laguna{
-    width: 40%;
-    height: 40%;
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1.2rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+    content: "🌶️";
+}
+
+.navigation a:hover {
+    color: #001D3D;
+    background-color: #aae1aa;
+}
+
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+
+.responsive li {
+    display: block;
+}
+
+.responsive a.ham::before {
+    content: "❌ ";
+}
+
+
+/* Media Query for medium+ views */
+
+@media only screen and (min-width: 768px) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 auto;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    #father-box .header {
+        display: inline-block;
+    }
+    header figure.logo {
+        float: left;
+        margin: 0 2% 0 0;
+    }
+    .clearfix::after {
+        content: "Home";
+        display: table;
+        clear: both;
+    }
+}
+
+@media (max-width:650px) {
+    #father-box-home .principal2 {
+        display: flex;
+        flex-direction: column;
+    }
+    #father-box-home .principal3 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #father-box-home .principal4 {
+        display: flex;
+        flex-direction: column;
+    }
+    #father-box-home #home1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #father-box-home #home2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #father-box-home .container1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #father-box-home .container-home-contra {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #father-box-home .Specifications1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
