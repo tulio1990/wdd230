@@ -25,65 +25,38 @@ fetch(requestURL)
         }
     });
 
-    // function displayfresh(){
-    //     let name = document.getElementById("name").value;
-    //     let email = document.getElementById("email").value;
-    //     let phone = document.getElementById("phone").value;
-    //     let carbo 
-    //     let prote
-    //     let fat
-    //     let sugar
-    //     let calories
-    //     let fruit_one = document.getElementById("genus").value;
-    //     let fruit_two = document.getElementById("genus2").value;
-    //     let fruit_three = document.getElementById("genus3").value;
-    //     let div = document.getElementById("line-top");
+    function displayfresh(){
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let phone = document.getElementById("phone").value;
+        let carbo 
+        let prote
+        let fat
+        let sugar
+        let calories
+        let fruit_one = document.getElementById("genus").value;
+        let fruit_two = document.getElementById("genus2").value;
+        let fruit_three = document.getElementById("genus3").value;
+        let div = document.getElementById("line-top");
 
-    //     let h2 = document.createElement('h2');
-    //     h2.innerText = name;
-    //     let p = document.createElement('p')
-    //     p.innerText = email;
-    //     let p2 = document.createElement('p')
-    //     o2.innerHTML = phone;
+        let h2 = document.createElement('h2');
+        h2.innerText = name;
+        let p = document.createElement('p')
+        p.innerText = email;
+        let p2 = document.createElement('p')
+        p2.innerHTML = phone;
 
-    // div.appendChild(h2);
-    // div.appendChild(p);
-    // div.appendChild(p2);
+    div.appendChild(h2);
+    div.appendChild(p);
+    div.appendChild(p2);
 
-    // console.log(h2);
-    // console.log(p);
-    // console.log(p2);
+    console.log(h2);
+    console.log(p);
+    console.log("entreamos aui");
 
 
 
-    // };
+    };
 
- document.getElementsByClassName("submitBtn").addEventListener("click", function(){
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let phone = document.getElementById("phone").value;
-    let carbo 
-    let prote
-    let fat
-    let sugar
-    let calories
-    let fruit_one = document.getElementById("genus").value;
-    let fruit_two = document.getElementById("genus2").value;
-    let fruit_three = document.getElementById("genus3").value;
-    let div = document.getElementById("line-top");
+    
 
-    let h2 = document.createElement('h2');
-    h2.innerText = name;
-    let p = document.createElement('p')
-    p.innerText = email;
-    let p2 = document.createElement('p')
-    p2.innerHTML = phone;
-
-div.appendChild(h2);
-div.appendChild(p);
-div.appendChild(p2);
-
-console.log(h2);
-console.log(p);
-console.log(p2);
-});
